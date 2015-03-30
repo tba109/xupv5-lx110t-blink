@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Mar 30 13:32:08 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "FPGA_CPU_RESET_B" LOCATE = SITE "E9" LEVEL 1;
+COMP "GPIO_LED_N" LOCATE = SITE "AF13" LEVEL 1;
+COMP "USER_CLK" LOCATE = SITE "AH15" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,28 @@
+Command line:
+   blink_top_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58796
+
+Mon Mar 30 13:06:21 2015
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 237.965 Meg
+
+ Total Signals          : 19
+ Total Nets             : 18
+ Total Signal Drivers   : 10
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 15
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 319
+
+ Total Simulation Time: 67.91 sec
+
+ Current Memory Usage: 313.467 Meg
+
+Mon Mar 30 13:08:36 2015
+

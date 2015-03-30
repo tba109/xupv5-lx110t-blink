@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/tyler/sat_erp/firmware/blink/blink/blink_top.ncd
+OUTFILE=/home/tyler/sat_erp/firmware/blink/blink/blink_top.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=/home/tyler/sat_erp/firmware/blink/blink
+LICENSE=ISE
+USER_INFO=174251744_179659119_210565914_163

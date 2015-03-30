@@ -1,0 +1,2 @@
+verilog work "../config_ind.v"
+verilog work "../blink_top.v"

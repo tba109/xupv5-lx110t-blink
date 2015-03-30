@@ -1,0 +1,4 @@
+verilog isim_temp "../config_ind.v"
+verilog isim_temp "../blink_top.v"
+verilog isim_temp "blink_top_tb.v"
+verilog isim_temp "/home/tyler/xilinx/ISE_14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,7 @@
+# Tyler Anderson Mon Mar 30 11:55:38 EDT 2015
+
+NET  GPIO_LED_N           LOC="AF13";  # Bank 2, Vcco=3.3V
+NET  FPGA_CPU_RESET_B     LOC="E9";    # Bank 20, Vcco=3.3V, DCI using 49.9 ohm resistors
+NET  USER_CLK             LOC="AH15";  # Bank 4, Vcco=3.3V, No DCI
+                  
+

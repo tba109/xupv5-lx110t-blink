@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/tyler/sat_erp/firmware/blink/pin_assignments.ucf -p xc5vlx110t-ff1136-1 blink_top.ngc blink_top.ngd  
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/tyler/sat_erp/firmware/blink/pin_assignments.ucf -p xc5vlx110t-ff1136-1 blink_top.ngc blink_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o blink_top_map.ncd blink_top.ngd blink_top.pcf 
+par -w -intstyle ise -ol high -mt off blink_top_map.ncd blink_top.ncd blink_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml blink_top.twx blink_top.ncd -o blink_top.twr blink_top.pcf 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/tyler/sat_erp/firmware/blink/pin_assignments.ucf -p xc5vlx110t-ff1136-1 blink_top.ngc blink_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o blink_top_map.ncd blink_top.ngd blink_top.pcf 
+par -w -intstyle ise -ol high -mt off blink_top_map.ncd blink_top.ncd blink_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml blink_top.twx blink_top.ncd -o blink_top.twr blink_top.pcf 
+bitgen -intstyle ise -f blink_top.ut blink_top.ncd 
+xst -intstyle ise -ifn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.xst" -ofn "/home/tyler/sat_erp/firmware/blink/blink/blink_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/tyler/sat_erp/firmware/blink/pin_assignments.ucf -p xc5vlx110t-ff1136-1 blink_top.ngc blink_top.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o blink_top_map.ncd blink_top.ngd blink_top.pcf 
+par -w -intstyle ise -ol high -mt off blink_top_map.ncd blink_top.ncd blink_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml blink_top.twx blink_top.ncd -o blink_top.twr blink_top.pcf 
+bitgen -intstyle ise -f blink_top.ut blink_top.ncd 

@@ -1,0 +1,4 @@
+verilog work "../config_ind.v"
+verilog work "../blink_top.v"
+verilog work "blink_top_tb.v"
+verilog work "/home/tyler/xilinx/ISE_14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"
